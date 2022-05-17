@@ -1,0 +1,32 @@
+.inputUser , .inputPassword{
+    width: 535px;
+    height: 64px;
+    box-sizing: border-box;
+    background: rgba(177, 177, 177, 0.54);
+    border: 2px solid #FFFFFF;
+    border-radius: 16px;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.74);
+    margin-top: 14px;
+    background-image: url(../../resources/icons/icon-user.svg);
+    background-repeat: no-repeat;
+    background-position: 13px;
+    padding-left: 75px;
+}   
+
+.inputPassword{
+
+    background-image: url(../../resources/icons/icon-password.svg);
+
+}   
+
+.inputUser::placeholder,.inputPassword::placeholder{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: rgba(255, 255, 255, 0.74);
+}

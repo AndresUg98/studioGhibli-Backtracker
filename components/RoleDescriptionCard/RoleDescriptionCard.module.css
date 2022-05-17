@@ -1,0 +1,46 @@
+
+
+.roleCard{
+    display: grid;
+    width: 1097px;
+    height: 266px;
+    margin-top: 4%;
+    background: #313877;
+    grid-template-columns: 278px 1fr;
+    grid-template-rows: 1fr;
+    box-shadow: 4px 4px 4px rgba(19, 14, 14, 0.25);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.roleCardImg{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.roleCardImg img{
+    width: 100%;
+    height: 100%;
+    background: url(../../resources/img/adminn.png);
+}
+
+.roleCardInfo{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 25px
+}
+
+.rolTitle{  
+    color: white;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.roleDescription{
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
